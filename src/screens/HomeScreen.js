@@ -22,6 +22,12 @@ const HomeScreen = ({ navigation }) => {
           navigation.navigate("Image");
         }}
       />
+      <Button
+        title="Go to color demo"
+        onPress={() => {
+          navigation.navigate("Colors");
+        }}
+      />
     </View>
   );
 };
