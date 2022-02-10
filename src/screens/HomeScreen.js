@@ -28,6 +28,12 @@ const HomeScreen = ({ navigation }) => {
           navigation.navigate("Colors");
         }}
       />
+      <Button
+        title="Go to square demo"
+        onPress={() => {
+          navigation.navigate("Square");
+        }}
+      />
     </View>
   );
 };
